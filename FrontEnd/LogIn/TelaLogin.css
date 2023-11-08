@@ -15,17 +15,22 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.background-square{
+    border-radius: 35px;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: aliceblue;
+    width: 95vw;
+    height: 90vh;
+}
 .page{
     display: flex;
     flex-direction: column;
-    /*float: right; */
+    float: left; 
     align-items: center;
-    width: 95vw;
-    height: 90vh;
-    background-color: aliceblue;
     justify-content: center;
-    border-radius: 35px;
-    font-family: 'Comfortaa', sans-serif;
+    width: 50vw;
+    height: 90vh;
 }
 
 .formLogin{
@@ -34,10 +39,12 @@ body{
     justify-content: center;
     padding: 30px;
     width: 30vw;
-    background-color: ;
+    height: 100%;
+    
 }
 
 .formLogin p.titulo{
+    margin-bottom: 40px;
     font-size: 20px;
     color: #FF6E6E;
 }
@@ -52,6 +59,7 @@ body{
 .formLogin p.sub_titulo{
     font-size: 18px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .formLogin p.entrar{
@@ -88,6 +96,8 @@ body{
     display: flex;
     justify-content: center;
     line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 2vw;
 }
 
 .formLogin input[type="submit"] {
@@ -124,4 +134,19 @@ body{
 .cadastre_se{
     display: block;
     text-align: right;
+}
+
+.imagem-direita{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-direita img{
+    width: 100%;
+    border-radius: 35px;
+    height: 80vh;
+    margin-right: 10vh; 
+    margin-top: 5vh; 
 }
