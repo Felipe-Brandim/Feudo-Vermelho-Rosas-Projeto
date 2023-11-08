@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.background{
+    background: linear-gradient(to bottom, #ff2a2a, #FF4646, #FF6E6E);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-square{
+    border-radius: 35px;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: aliceblue;
+    width: 95vw;
+    height: 90vh;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    float: left; 
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 90vh;
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 30vw;
+    height: 100%;
+    
+}
+
+.formLogin p.titulo{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #FF6E6E;
+}
+
+.formLogin h2{
+    color: dimgray;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.formLogin p.sub_titulo{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formLogin p.entrar{
+    font-weight: 500;
+}
+
+.formLogin label.email{
+    padding-bottom: 5px;
+}
+
+.formLogin label.password{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.formLogin input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid #FF6E6E;
+}
+
+.formLogin input[type="checkbox"]{
+    box-shadow: none;
+    border: none;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.button_container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 2vw;
+}
+
+.formLogin input[type="submit"] {
+    color: white;
+    background-color: #FF6E6E;
+    width: 9vw;
+    height: 50px;
+}
+
+.container_remember_password {
+    display: inline;
+}
+
+.remember_me, .forgot_password{
+    display: inline-flex;
+    vertical-align: top;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.remember_me label {
+    display: flex;
+    align-items: center;
+    width: auto;
+    white-space: nowrap;
+}
+
+.remember_me {
+    margin-right: 140px;
+}
+
+.cadastre_se{
+    display: block;
+    text-align: right;
+}
+
+.imagem-direita{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-direita img{
+    width: 100%;
+    border-radius: 35px;
+    height: 80vh;
+    margin-right: 10vh; 
+    margin-top: 5vh; 
+}
