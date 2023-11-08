@@ -34,6 +34,7 @@ body{
     justify-content: center;
     padding: 30px;
     width: 30vw;
+    background-color: ;
 }
 
 .formLogin p.titulo{
@@ -83,15 +84,17 @@ body{
 }
 
 .button_container {
+    text-align: center;
     display: flex;
     justify-content: center;
+    line-height: 50px;
 }
 
 .formLogin input[type="submit"] {
     color: white;
     background-color: #FF6E6E;
     width: 9vw;
-    height: 40px;
+    height: 50px;
 }
 
 .container_remember_password {
@@ -102,8 +105,8 @@ body{
     display: inline-flex;
     vertical-align: top;
     width: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: space-between;
 }
 
@@ -116,4 +119,9 @@ body{
 
 .remember_me {
     margin-right: 140px;
+}
+
+.cadastre_se{
+    display: block;
+    text-align: right;
 }
